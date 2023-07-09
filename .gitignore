@@ -1,4 +1,5 @@
 .stack-work/
+XPlayer.app/*
 .DS_Store
 qt5-ui/build/*
 qt5-ui/.cache/*

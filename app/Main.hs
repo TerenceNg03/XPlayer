@@ -6,4 +6,4 @@ import Foreign.C.Types
 foreign import ccall "runGUI" runGUI :: CInt -> IO ()
 
 main :: IO ()
-main = runGUI 0
+main = runGUI 100

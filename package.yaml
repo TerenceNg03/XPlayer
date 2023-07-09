@@ -32,14 +32,15 @@ ghc-options:
 - -Wmissing-home-modules
 - -Wpartial-fields
 - -Wredundant-constraints
-- -L$("pwd")/qt5-ui/build
-- -lqt5-ui
 
 library:
   source-dirs: src
 
+extra-libraries:
+- qt5-ui
+
 executables:
-  XPlayer-exe:
+  XPlayer:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
