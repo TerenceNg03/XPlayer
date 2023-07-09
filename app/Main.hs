@@ -2,5 +2,8 @@ module Main (main) where
 
 import Lib
 
+import Foreign.C.Types
+foreign import ccall "runGUI" runGUI :: CInt -> IO ()
+
 main :: IO ()
-main = someFunc
+main = runGUI 0

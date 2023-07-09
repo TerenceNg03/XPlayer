@@ -1,3 +1,6 @@
 .stack-work/
 .DS_Store
+qt5-ui/build/*
+qt5-ui/.cache/*
+qt5-ui/compile_commands.json
 *~

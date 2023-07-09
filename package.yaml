@@ -32,6 +32,8 @@ ghc-options:
 - -Wmissing-home-modules
 - -Wpartial-fields
 - -Wredundant-constraints
+- -L$("pwd")/qt5-ui/build
+- -lqt5-ui
 
 library:
   source-dirs: src
